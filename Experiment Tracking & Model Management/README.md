@@ -33,6 +33,15 @@ MLFlow helps you to organize your experiments into runs.
 ```
 pip install mlflow
 mlflow ui --backend-store-uri sqlite:///mlflow.db
+
+
+## MLFlow Interface for Tracking Experiments
+![Tracking Experiments](images/tracking_experiments.PNG)
+
+***
+
+## MLFlow Interface for Model Management
+![Model Management](images/model_management.PNG)
 ```
 *** 
 
