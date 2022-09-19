@@ -1,4 +1,4 @@
-# We will learn Experiment Tracking and Model Management
+# Experiment Tracking and Model Management
 
 ## Introduction to Experiment Tracking
 **Terminologies:**
