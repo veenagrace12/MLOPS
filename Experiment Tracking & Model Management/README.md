@@ -35,14 +35,7 @@ pip install mlflow
 mlflow ui --backend-store-uri sqlite:///mlflow.db
 
 
-## MLFlow Interface for Tracking Experiments
-![Tracking Experiments](images/tracking_experiments.PNG)
 
-***
-
-## MLFlow Interface for Model Management
-![Model Management](images/model_management.PNG)
-```
 *** 
 
 ## Introduction to MLFlow
@@ -65,3 +58,12 @@ mlflow ui --backend-store-uri sqlite:///mlflow.db
 **Step 5 - Logging the model and other files (2 ways)**
 > **Way 1 -** `mlflow.<FRAMEWORK>.log_model(MODEL_OBJECT, artifact_path="PATH")`  
 > **Way 2 -** `mlflow.log_artifact(LOCAL_PATH, artifact_path="PATH")`
+
+
+## MLFlow Interface for Tracking Experiments
+![Tracking Experiments](images/tracking_experiments.PNG)
+
+***
+
+## MLFlow Interface for Model Management
+![Model Management](images/model_management.PNG)
