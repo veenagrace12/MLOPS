@@ -27,7 +27,7 @@ MLFlow helps you to organize your experiments into runs.
 > Metrics  
 > Models  
 > Artifact  
-> Source code, Start and End Time, Authors etc..
+> Source code, Start and End Time, Authors etc...
 
 **Run below mentioned commands to install mlflow on your system:**
 
