@@ -61,9 +61,9 @@ mlflow ui --backend-store-uri sqlite:///mlflow.db
 
 
 ## MLFlow Interface for Tracking Experiments
-![Tracking Experiments](images/tracking_experiments.PNG)
+![Tracking Experiments](images/tracking_experiments.png)
 
 ***
 
 ## MLFlow Interface for Model Management
-![Model Management](images/model_management.PNG)
+![Model Management](images/model_management.png)
