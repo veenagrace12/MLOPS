@@ -93,3 +93,9 @@ deployment = Deployment.build_from_flow(
 
 deployment.apply()
 ```
+
+### Running an Agent
+
+```
+$ prefect agent start --work-queue "ml"
+```
