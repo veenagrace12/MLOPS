@@ -73,3 +73,23 @@ Try 'uvicorn --help' for help.
 Error: Got unexpected extra argument (prefect.orion.api.server:create_app)
 Orion stopped!
 ```
+
+### Deployment of Prefect Flow
+
+- `work_queue_name` is used to submit the deployment to the a specific work queue.
+- You don't need to create a work queue before using the work queue. A work queue will be created if it doesn't exist.
+
+```python
+from prefect.deployments import Deployment
+from prefect.orion.schemas.schedules import IntervalSchedule
+from datetime import timedelta
+
+deployment = Deployment.build_from_flow(
+    flow=main,
+    name="model_training",
+    schedule=IntervalSchedule(interval=timedelta(minutes=5)),
+    work_queue_name="ml"
+)
+
+deployment.apply()
+```
