@@ -12,3 +12,22 @@
 - Schedule and Monitor the flow  
 - Gives observability into failures  
 - Native dask integration for scaling (Dask is used for parallel computing)
+
+***
+
+### Creating and activating a Virtual Environment
+In order to install prefect, create a virtual environment:
+> `$ python -m venv mlops`  
+
+Enter the Virtual Environment using below mentioned command:
+> `$ .\mlops\Scripts\activate`
+
+### Installing Prefect 2.0
+Now install Prefect:
+> `$ pip install prefect`  
+
+OR  if you have Prefect 1, upgrade to Prefect 2 using this command:  
+> `$ pip install -U prefect`  
+
+OR to install a specific version:  
+> `$ pip install prefect==2.4`  
