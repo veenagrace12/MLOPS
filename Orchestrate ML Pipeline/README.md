@@ -74,7 +74,7 @@ Error: Got unexpected extra argument (prefect.orion.api.server:create_app)
 Orion stopped!
 ```
 
-### Deployment of Prefect Flow
+## Deployment of Prefect Flow
 
 - `work_queue_name` is used to submit the deployment to the a specific work queue.
 - You don't need to create a work queue before using the work queue. A work queue will be created if it doesn't exist.
