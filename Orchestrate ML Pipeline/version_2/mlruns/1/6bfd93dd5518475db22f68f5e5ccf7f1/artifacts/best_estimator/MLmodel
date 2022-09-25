@@ -1,0 +1,22 @@
+artifact_path: best_estimator
+flavors:
+  python_function:
+    env: conda.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.9.12
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.1.2
+mlflow_version: 1.29.0
+model_uuid: 98736a7e6b814c6cb23245332e550b7d
+run_id: 6bfd93dd5518475db22f68f5e5ccf7f1
+signature:
+  inputs: '[{"name": "cut", "type": "double"}, {"name": "color", "type": "double"},
+    {"name": "clarity", "type": "double"}, {"name": "carat", "type": "double"}, {"name":
+    "depth", "type": "double"}, {"name": "table", "type": "double"}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float64", "shape": [-1]}}]'
+utc_time_created: '2022-09-25 12:42:42.915809'
